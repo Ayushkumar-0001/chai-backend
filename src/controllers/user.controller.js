@@ -6,6 +6,7 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 
 
 const registerUser = asyncHandler(async(req,res) => {
+    
     //get user details from frontend
     //validation - not empty
     //chek if user already exist : username,email
